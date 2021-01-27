@@ -1,2 +1,9 @@
-<p>menu works!</p>
-<h5>Let have a party</h5>
+<div class="container" fxLayout="column">
+    <mat-nav-list fxFlex>
+        <mat-list-item *ngFor="let dish of dishes">
+            <img matListAvatar src="{{dish.image}}" alt="{{dish.hot}}">
+            <h3 matLine>{{dish.name}}</h3>
+            <p matLine>{{dish.description}}</p>
+        </mat-list-item>
+    </mat-nav-list>
+</div>
