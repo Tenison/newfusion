@@ -53,7 +53,7 @@ const DishesInfo: Dish[] = [
 
 export class MenuComponent implements OnInit {
   dishes: Dish[] = DishesInfo;
-  selectedDish: Dish = DishesInfo[0];
+
    /*[ {
       id: '0',
       name: 'Uthappizza',
